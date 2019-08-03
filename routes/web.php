@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/add',function(){
+	echo "这是第一个客户开发的模块";
+});
