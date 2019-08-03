@@ -16,5 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('/add',function(){
-	echo "这是第一个客户开发的模块";
+	echo "这是第一个用户开发的模块";
+});
+
+Route::get('/insert',function(){
+	echo "这是第二个用户开发的模块";	
 });
